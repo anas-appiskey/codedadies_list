@@ -24,9 +24,6 @@ lazy-object-proxy==1.4.3
 lxml==4.5.0
 matplotlib==3.2.1
 mccabe==0.6.1
-numpy==1.18.2
-opencv-python==4.2.0.32
-pandas==1.0.3
 Pillow==7.1.0
 psycopg2==2.8.5
 pyasn1==0.4.8
@@ -41,9 +38,6 @@ s3transfer==0.3.3
 six==1.14.0
 soupsieve==2.0
 sqlparse==0.3.1
-torch==1.4.0+cpu
-torchvision==0.1.6
-tqdm==4.44.1
 urllib3==1.25.8
 virtualenv==20.0.18
 virtualenvwrapper-win==1.2.6
