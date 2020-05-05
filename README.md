@@ -56,5 +56,5 @@
     admin.site.register(Search)
     ```
 11. It`s time to build a model of Search function and also make sure to migrate after every change in models 
-    
-
+12. adding search functionality with the help of beautiful soup    
+13. install heroku-cli from it`s web 
