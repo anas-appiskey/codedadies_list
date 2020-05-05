@@ -57,4 +57,19 @@
     ```
 11. It`s time to build a model of Search function and also make sure to migrate after every change in models 
 12. adding search functionality with the help of beautiful soup    
-13. install heroku-cli from it`s web 
+13. install heroku-cli from it`s web
+    ```
+    https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+    ``` 
+15. remember to add this in your **Procfile**
+    ```
+    web: gunicorn <your-project-name>.wsgi:application --log-file - --log-level debug
+    python manage.py collectstatic --noinput
+    manage.py migrate
+    ```
+
+14. now follow these steps to deploy to heroku 
+    ```
+    https://medium.com/@dev117uday/deploying-django-app-on-heroku-in-few-minutes-e977bf7bf187
+    ```
+ 
