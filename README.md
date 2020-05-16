@@ -39,6 +39,10 @@
    ```
    STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
    ```
+9. you should also add TEMPLATE_DIR in TEMPLATES array in settings.py otherwise it will not able to detect your file in templates
+    ```
+    'DIRS': [TEMPLATE_DIR,],
+    ```
 8. Create a home function in Views.py in myapp
 
 9. Create urls.py file to show the pages and use to navigate and add urlpatterns of views.home 
